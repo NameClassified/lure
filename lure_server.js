@@ -7,8 +7,9 @@ const port = 8080;
 
 const s3 = new aws.S3({
     region: 'us-east-2',
-    accessKeyId:"AKIAWVDUGYUMDJTVSIPI",
-    secretAccessKey:"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",
+    accessKeyId:"XXXXXXXXXXXXXXXXXXXX",
+    secretAccessKey:"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    
 });
 function getImage(key){
     var get_params = {
