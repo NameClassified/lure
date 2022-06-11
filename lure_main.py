@@ -16,8 +16,10 @@ gpio.setup(27, gpio.OUT)
 gpio.setup(4,gpio.OUT)
 gpio.setup(21, gpio.IN)
 gpio.setup(26, gpio.OUT)
-ACCESS_KEY = 'AKIAWVDUGYUMDJTVSIPI'
-SECRET_KEY = '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'
+
+ACCESS_KEY = 'XXXXXXXXXXXXXXXXXXXX'
+SECRET_KEY = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
 client = boto3.client('s3',aws_access_key_id = ACCESS_KEY, aws_secret_access_key = SECRET_KEY,region_name='us-east-2')
 
 show_video = True
